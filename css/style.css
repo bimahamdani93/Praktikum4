@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&family=Nunito:wght@200&display=swap");
+
+body {
+  background-image: linear-gradient(#686de0, #93fd56, #22a6b3);
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  top: 64px;
+  background-image: linear-gradient(#686de0, #93fd56, #22a6b3);
+}
+
+.header {
+  background-color: rgb(248, 248, 248);
+
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 60px;
+}
+
+.header .nav {
+  width: 600px;
+  text-align: center;
+}
+
+.header .logo {
+  width: 300px;
+  text-align: center;
+  line-height: 55px;
+}
+
+.header .nav ul {
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header .nav ul li {
+  display: inline;
+}
+
+.header .logo a {
+  text-decoration: none;
+  margin: 3px 0px;
+  border-top: 1px solid #deefff;
+  border-left: 1px solid #deefff;
+  border-right: 1px solid #cbe5ff;
+  border-bottom: 1px solid #cbe5ff;
+  padding: 4px 10px;
+  background-color: #feffff;
+  color: #180d0d;
+  box-shadow: 3px 5px 5px 0px #fcd6d3;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header .logo a:hover {
+  background-color: #93fd56;
+}
+
+.header .nav ul a {
+  text-decoration: none;
+  display: inline;
+  margin: 3px 0px;
+  border-top: 1px solid #deefff;
+  border-left: 1px solid #deefff;
+  border-right: 1px solid #cbe5ff;
+  border-bottom: 1px solid #cbe5ff;
+  padding: 4px 10px;
+  text-align: center;
+  font-size: 17px;
+  background-color: #feffff;
+  color: #180d0d;
+  box-shadow: 3px 5px 5px 0px #fcd6d3;
+}
+
+.header .nav ul a:hover {
+  background-color: #bb4ffa;
+  color: #cbe5ff;
+}
+
+#home {
+  background-color: rgb(243, 235, 235, 0.5);
+  padding: 15px;
+  /* margin-top: 70px; */
+  margin-bottom: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  display: flex;
+  height: 587px;
+  justify-content: center;
+  align-items: center;
+}
+
+#home .kiri {
+  margin: 30px 50px 30px 60px;
+}
+
+#home .kiri .avatar {
+  vertical-align: middle;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  border: 4px solid rgb(247, 193, 45);
+}
+
+#home .kanan {
+  margin: 30px 60px 30px 50px;
+}
+
+#home .kanan h1 {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#home .kanan hr {
+  color: #122208;
+  height: 2px;
+  width: 200px;
+}
+
+#home .kanan p {
+  font-size: 20px;
+  font-family: verdana;
+  text-align: center;
+}
+
+#education {
+  background-color: rgb(243, 235, 235, 0.5);
+  padding: 73px 15px 15px 15px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 100vh;
+}
+
+#education h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: #223f0f;
+}
+
+#education .container-Education {
+  width: 100%;
+  display: flex;
+}
+
+#education .container-Education .pendidikan {
+  width: 50%;
+  padding: 15px;
+  margin-left: 60px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+#education .container-Education hr {
+  width: 150px;
+  height: 2px;
+  background-color: #090a27;
+  border: #000113;
+  text-align: left;
+  margin-inline-start: 1px;
+  margin-inline-end: 3px;
+}
+
+#education .container-Education .pendidikan dl {
+  margin-top: 30px;
+}
+
+#education .container-Education .pendidikan h3 {
+  font-size: 20px;
+  font-family: cursive;
+}
+
+#education .container-Education .pendidikan dd {
+  font-family: verdana;
+}
+
+#education .container-Education .pendidikan .tahun {
+  background-color: darkgreen;
+  color: white;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#education .container-Education .pelatihan {
+  width: 50%;
+  padding: 15px;
+  margin-left: 20pxpx;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+#education .container-Education .pelatihan h3 {
+  font-size: 20px;
+  font-family: cursive;
+}
+
+#education .container-Education .pelatihan ul {
+  font-family: verdana;
+}
+
+#education .container-Education .pelatihan li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#schedule {
+  background-color: rgb(243, 235, 235, 0.5);
+  padding: 73px 15px 15px 15px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  display: flex;
+  height: 100vh;
+}
+
+#schedule .container-Schedule {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#schedule .container-Schedule .atas {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#schedule .container-Schedule .atas #title {
+  text-align: center;
+  font-family: cursive;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#schedule .container-Schedule table {
+  text-align: center;
+  font-size: 11.5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#schedule .container-Schedule table th {
+  background-color: #d3dce3;
+}
+
+#schedule .container-Schedule .lapisSatu {
+  background-color: F5F5F5;
+}
+
+#activity {
+  background-color: rgb(243, 235, 235, 0.5);
+  padding: 73px 15px 15px 15px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 100vh;
+}
+
+#activity .container-activity {
+  text-align: center;
+}
+
+#activity .container-activity h1 {
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: #223f0f;
+  margin-top: 30px;
+}
+
+#activity .container-activity table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+#activity .container-activity .year {
+  background-color: #686de0;
+  text-align: center;
+  font-family: verdana;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#activity .container-activity .organization {
+  font-family: verdana;
+  padding-right: 20px;
+}
+
+#skills {
+  background-color: rgb(243, 235, 235, 0.5);
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 358px;
+}
+
+#skills .container-skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#skills table {
+  text-align: center;
+  font-family: verdana;
+}
+
+#skills h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: #223f0f;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  display: flex;
+  width: 100%;
+  background-color: #434242;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer .contact {
+  margin: 15px;
+}
+
+.footer table {
+  color: #cbe5ff;
+}
+
+.footer .follow {
+  margin: 15px 50px 15px 50px;
+}
